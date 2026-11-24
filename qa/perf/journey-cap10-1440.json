@@ -1,0 +1,50 @@
+{
+ "desktop steady": {
+  "draws": 264,
+  "misses": 0,
+  "moving": 244,
+  "step_median": 0.78,
+  "step_p95": 1.2,
+  "step_max": 1.52,
+  "frames": 336,
+  "long_frames": 0,
+  "budget": 30,
+  "decoded": 15
+ },
+ "desktop fast": {
+  "draws": 122,
+  "misses": 0,
+  "moving": 107,
+  "step_median": 1.83,
+  "step_p95": 3.28,
+  "step_max": 3.62,
+  "frames": 187,
+  "long_frames": 0,
+  "budget": 30,
+  "decoded": 15
+ },
+ "phone-size steady": {
+  "draws": 288,
+  "misses": 0,
+  "moving": 269,
+  "step_median": 0.52,
+  "step_p95": 2.03,
+  "step_max": 3.63,
+  "frames": 339,
+  "long_frames": 15,
+  "budget": 26,
+  "decoded": 14
+ },
+ "phone-size fast": {
+  "draws": 120,
+  "misses": 68,
+  "moving": 102,
+  "step_median": 0.94,
+  "step_p95": 6.88,
+  "step_max": 8.89,
+  "frames": 173,
+  "long_frames": 29,
+  "budget": 26,
+  "decoded": 14
+ }
+}

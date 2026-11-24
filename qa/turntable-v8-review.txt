@@ -1,0 +1,13 @@
+ARC v8 turntable review — 23 November 2026
+
+Runtime/application source and rendered assets were not changed during this review.
+
+Updated scripts/qa_turntable_loading.py to read the frame count from src/media.ts, verify 96-frame selection loading and coarse background previews, and allow the new 0.2-second cancellation snap to settle before checking stability.
+
+All 25 focused checks passed on http://localhost:5173. These include delayed requests, rapid finish switching, all 96 frames for each selected finish, actual angle changes, exact default-image restoration, cancelled touch capture release and settled reset. The browser was closed after the test.
+
+The main 60-check suite and production build were not independently rerun in this review because no runtime changes were made.
+
+Reviewed qa/screenshots/v8 and the live configurator. Desktop Graphite, rear Ember and phone Silver samples were visibly contained. Controls chapter framing now matches the face-controls copy. Not every rendered angle was visually inspected.
+
+Active file sizes and the next performance priorities are documented in PERFORMANCE-FINISH-BRIEF.txt. Calculated decoded-pixel equivalents are not measurements of actual resident browser memory. Physical-phone performance remains untested.

@@ -1,0 +1,26 @@
+ARC local finish pass — 23 November 2026
+
+Implemented
+- Configurator frame caching resumes and prioritises the selected finish after rapid switching.
+- Full turntables start loading when the viewer approaches within 400 px of the viewport.
+- A cancelled touch releases capture and stops inertia. Unused pitch state removed.
+- Phone hero text sizing and spacing adjusted to separate the action from the controller.
+- README limits performance claims to the actual local measurement.
+- Removed stale WebGL metadata and Three.js bundle-warning configuration; screenshot script uses supported horizontal turntable controls.
+
+Verification
+- npm run build: passed.
+- scripts/qa_interactions.py http://localhost:4173: 60/60 passed on rebuilt production preview.
+- scripts/qa_turntable_loading.py http://localhost:5173: 19/19 passed on development source with StrictMode.
+- Focused checks delayed non-opening turntable requests by 60 ms, switched finishes while incomplete, checked every finish reached all 32 frames, compared actual canvas images before/after rotation/reset, and dispatched a real Chromium touch cancellation.
+- Desktop hero and phone hero screenshots captured and visually reviewed in qa/screenshots/codex-finish-pass/.
+- Phone opening also visually checked in the in-app production preview.
+
+Scope and limits
+- No Blender scene or rendered product image was modified during this pass.
+- The prior report's listed legacy modules, scripts, old render sets and Three.js package were already absent when checked.
+- Turntable caches still retain all three finishes after near-viewport loading; decoded-memory behaviour and physical-phone performance have not been measured.
+- Original intermittent touch-reset test failure's precise historical cause is not established. The cancellation risk identified in source is fixed, and the focused reset checks and existing touch-reset check now pass.
+- Remaining image issues are documented in FINAL-RENDER-CORRECTIONS.txt.
+
+Backups of root-edited CSS, README, HTML, Vite config and screenshot script are in work/codex-finish-pass-before/.

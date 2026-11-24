@@ -1,0 +1,66 @@
+﻿
+== desktop
+                                                                            before                         after
+Opening visible                                                             0.25 s                        0.28 s
+  transfer before opening                                                  1.14 MB                       1.12 MB
+  turntable bytes before opening                                           0.10 MB                       0.00 MB
+Journey complete (cold)                                                     0.86 s                        0.70 s
+  transfer at top                                                         12.88 MB                      12.79 MB
+Turntable usable after jump                                                 0.41 s                        0.45 s
+Selected finish complete after jump                                         2.22 s                        0.72 s
+  configurator initial transfer                                           12.40 MB                       8.95 MB
+Finish change shown (silver, ember, graphite)                  17 ms, 16 ms, 15 ms            14 ms, 6 ms, 19 ms
+  finish change transfer (silver, ember)                          6.39 MB, 6.57 MB              4.59 MB, 4.71 MB
+Total transfer (all viewed)                                               38.24 MB                      31.04 MB
+Process memory at top (working set / private)                         467 / 286 MB                  412 / 229 MB
+Process memory configurator                                          1082 / 331 MB                  447 / 237 MB
+Process memory all finishes viewed                                   1104 / 366 MB                  471 / 268 MB
+Turntable decoded (frames / MB)                     288 retained (calc.) / 1244 MB      30 (budget 36) / 52.5 MB
+Turntable canvas                                                           836x522                       836x522
+Slow drag (median / max / spikes)                                  1.33 / 3.25 / 0               1.37 / 3.26 / 0
+Fast drag (changing frames / median / max / spikes)          69 / 9.19 / 24.82 / 0        69 / 3.88 / 24.56 / 16
+Page errors                                                                      0                             0
+
+== phone-slow
+                                                                            before                         after
+Opening visible                                                             3.35 s                        3.03 s
+  transfer before opening                                                  0.32 MB                       0.22 MB
+  turntable bytes before opening                                           0.10 MB                       0.00 MB
+Journey complete (cold)                                                    52.24 s                       51.78 s
+  transfer at top                                                         10.10 MB                      10.00 MB
+Turntable usable after jump                                                 0.51 s                        0.68 s
+Selected finish complete after jump                                        59.00 s                       31.39 s
+  configurator initial transfer                                           12.40 MB                       8.95 MB
+Finish change shown (silver, ember, graphite)                  67 ms, 70 ms, 70 ms           28 ms, 17 ms, 13 ms
+  finish change transfer (silver, ember)                          6.39 MB, 6.57 MB              4.59 MB, 4.71 MB
+Total transfer (all viewed)                                               35.46 MB                      28.26 MB
+Process memory at top (working set / private)                         547 / 240 MB                  382 / 212 MB
+Process memory configurator                                          1138 / 273 MB                  384 / 195 MB
+Process memory all finishes viewed                                   1170 / 306 MB                  423 / 226 MB
+Turntable decoded (frames / MB)                     288 retained (calc.) / 1244 MB      19 (budget 24) / 33.3 MB
+Turntable canvas                                                           696x696                       696x696
+Slow drag (median / max / spikes)                                                -                             -
+Fast drag (changing frames / median / max / spikes)                              -                             -
+Page errors                                                                      0                             0
+
+== phone-warm
+                                                                            before                         after
+Opening visible                                                             0.23 s                        0.22 s
+  transfer before opening                                                  1.00 MB                       0.90 MB
+  turntable bytes before opening                                           0.10 MB                       0.00 MB
+Journey complete (cold)                                                     0.57 s                        0.52 s
+  transfer at top                                                         10.10 MB                      10.00 MB
+Turntable usable after jump                                                 0.16 s                        0.22 s
+Selected finish complete after jump                                         1.85 s                        0.49 s
+  configurator initial transfer                                           12.40 MB                       8.95 MB
+Finish change shown (silver, ember, graphite)                  18 ms, 16 ms, 16 ms            12 ms, 14 ms, 6 ms
+  finish change transfer (silver, ember)                          6.39 MB, 6.57 MB              4.59 MB, 4.71 MB
+Total transfer (all viewed)                                               35.46 MB                      28.26 MB
+Process memory at top (working set / private)                         547 / 235 MB                  372 / 209 MB
+Process memory configurator                                          1146 / 279 MB                  385 / 206 MB
+Process memory all finishes viewed                                   1184 / 317 MB                  424 / 241 MB
+Turntable decoded (frames / MB)                     288 retained (calc.) / 1244 MB      19 (budget 24) / 33.3 MB
+Turntable canvas                                                           696x696                       696x696
+Slow drag (median / max / spikes)                                                -                             -
+Fast drag (changing frames / median / max / spikes)                              -                             -
+Page errors                                                                      0                             0

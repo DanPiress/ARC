@@ -1,0 +1,52 @@
+CONTROLLER ASSET RESEARCH — 22 NOVEMBER 2026
+
+Status: no downloaded candidate has been selected or integrated into the website.
+
+All three candidates below were downloaded as data assets into this folder for inspection. Candidate renders were created in a separate factory-startup Blender process, using neutral lights and the original supplied model materials. No existing Blender document or website application source was changed.
+
+1. Innerscene Gamepad controller
+Source:
+https://www.innerscene.com/tools/library/3d-parts/gamepad-controller-90f536b4
+Downloaded source:
+https://files.innerscene.com/library/gamepad-controller-90f536b4/9621491565570b3b7566/gamepad-controller.glb
+Local:
+candidates/innerscene-gamepad.glb
+candidates/innerscene-gamepad-studio.png
+candidates/innerscene-gamepad-inspection.json
+Source page lists CC0, original Innerscene model, generic unbranded design and an 8.0 MB GLB. Embedded asset metadata also carries a CC0 dedication. Inspection found 26,024 triangles, 16 meshes and material groups for shell, controls, ports and rubber.
+Visual finding: useful separated construction, but the supplied flat caps on exposed stalks, shallow shell and simple shoulder parts do not clearly improve ARC's reference fidelity. Not selected.
+
+2. Innerscene generic own-shape controller
+Source:
+https://www.innerscene.com/tools/library/3d-parts/game-controller-generic-own-shape-6e14a02b
+Downloaded source:
+https://files.innerscene.com/library/game-controller-generic-own-shape-6e14a02b/d6ca062a3448997c8112/game-controller-generic-own-shape.glb
+Local:
+candidates/innerscene-controller.glb
+candidates/innerscene-controller-studio.png
+candidates/innerscene-controller-inspection.json
+Source page lists CC0, original unbranded model, about 405 KB. Embedded metadata also carries a CC0 dedication.
+Visual finding: very simple broad shell and inflated grip lobes with little convincing part construction. Not selected.
+
+3. tevy Wireless Game Controller
+Source:
+https://tevy.dev/models/game-controller
+Downloaded source:
+https://tevy.dev/models/game-controller/v1/lod0.glb
+Preview:
+https://tevy.dev/models/game-controller/v1/preview.webp
+Local:
+candidates/tevy-controller.glb
+candidates/tevy-preview.webp
+Source page lists CC0 1.0, v1 dated 7 November 2026, 15,704 triangles and about 319 KB.
+Visual finding from the supplied preview: simple white inflated shell, flat stick caps on exposed stalks, limited detail. Not selected.
+
+CC0 reference:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+A visually stronger branded alternative was found:
+PlayStation 5 DualSense by AHarmlessPotato
+https://sketchfab.com/3d-models/playstation-5-dualsense-878c1f882808477ab81c2fe86d5a3936
+Listing: CC BY 4.0, 111.7k triangles, Cinema 4D modelling and Substance Painter textures. Browser review showed shaped shoulder parts, seams and recognisable Sony details. Download requires sign-in. It was not downloaded or selected. Its visible brand identity would require a different fan-concept project framing or substantial redesign to fit original ARC.
+
+The free source pages and embedded metadata document the stated licences; keep this provenance alongside any later use. Neither candidate metadata nor a marketing description alone establishes visual suitability.

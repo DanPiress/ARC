@@ -1,0 +1,513 @@
+{
+ "url": "http://localhost:4174",
+ "label": "before",
+ "browser": "Playwright headless Chromium on Windows 10 (this computer)",
+ "runs": [
+  {
+   "scenario": "phone-slow",
+   "profile": {
+    "viewport": {
+     "width": 390,
+     "height": 844
+    },
+    "device_scale_factor": 2,
+    "is_mobile": true,
+    "has_touch": true,
+    "throttled": true
+   },
+   "opening_visible_ms": 3347,
+   "transfer_before_opening": {
+    "journey": 86318,
+    "spin": 99598,
+    "other": 131487,
+    "journeyFiles": 1,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 317403
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 1127,
+    "frame0_start": 1430,
+    "frame0_end": 3275,
+    "first_media_requests": [
+     [
+      "/spin/graphite/00.webp",
+      1201,
+      3147
+     ],
+     [
+      "/journey/phone/000.webp",
+      1430,
+      3275
+     ]
+    ]
+   },
+   "journey_complete_ms": 52244,
+   "transfer_at_top": {
+    "journey": 9710128,
+    "spin": 99598,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 10102300
+   },
+   "memory_at_top": {
+    "private_mb": 240.1,
+    "working_set_mb": 547.1,
+    "processes": 4
+   },
+   "journey_stats": {},
+   "turntable_usable_ms_after_jump": 512,
+   "selected_finish_complete_ms_after_jump": 58999,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 12399378,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 95,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 12399378
+   },
+   "memory_configurator_initial": {
+    "private_mb": 272.9,
+    "working_set_mb": 1138.5,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 67,
+     "transfer": {
+      "journey": 0,
+      "spin": 6390360,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 6390360
+     }
+    },
+    "ember": {
+     "shown_ms": 70,
+     "transfer": {
+      "journey": 0,
+      "spin": 6567292,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 6567292
+     }
+    },
+    "graphite": {
+     "shown_ms": 70,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 306.1,
+    "working_set_mb": 1169.7,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "transfer_total": {
+    "journey": 9710128,
+    "spin": 25456628,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 35459330
+   },
+   "errors": []
+  },
+  {
+   "scenario": "phone-warm",
+   "profile": {
+    "viewport": {
+     "width": 390,
+     "height": 844
+    },
+    "device_scale_factor": 2,
+    "is_mobile": true,
+    "has_touch": true,
+    "throttled": false
+   },
+   "opening_visible_ms": 234,
+   "transfer_before_opening": {
+    "journey": 603800,
+    "spin": 99598,
+    "other": 292574,
+    "journeyFiles": 9,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 995972
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 97,
+    "frame0_start": 165,
+    "frame0_end": 169,
+    "first_media_requests": [
+     [
+      "/spin/graphite/00.webp",
+      114,
+      117
+     ],
+     [
+      "/journey/phone/000.webp",
+      165,
+      169
+     ],
+     [
+      "/journey/phone/144.webp",
+      178,
+      185
+     ],
+     [
+      "/journey/phone/048.webp",
+      179,
+      185
+     ]
+    ]
+   },
+   "journey_complete_ms": 569,
+   "transfer_at_top": {
+    "journey": 9710128,
+    "spin": 99598,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 10102300
+   },
+   "memory_at_top": {
+    "private_mb": 235.1,
+    "working_set_mb": 547.1,
+    "processes": 4
+   },
+   "journey_stats": {},
+   "turntable_usable_ms_after_jump": 163,
+   "selected_finish_complete_ms_after_jump": 1847,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 12399378,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 95,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 12399378
+   },
+   "memory_configurator_initial": {
+    "private_mb": 279.0,
+    "working_set_mb": 1146.3,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 18,
+     "transfer": {
+      "journey": 0,
+      "spin": 6390360,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 6390360
+     }
+    },
+    "ember": {
+     "shown_ms": 16,
+     "transfer": {
+      "journey": 0,
+      "spin": 6567292,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 6567292
+     }
+    },
+    "graphite": {
+     "shown_ms": 16,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 317.3,
+    "working_set_mb": 1183.8,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "transfer_total": {
+    "journey": 9710128,
+    "spin": 25456628,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 35459330
+   },
+   "errors": []
+  },
+  {
+   "scenario": "desktop",
+   "profile": {
+    "viewport": {
+     "width": 1440,
+     "height": 900
+    },
+    "device_scale_factor": 1,
+    "throttled": false
+   },
+   "opening_visible_ms": 254,
+   "transfer_before_opening": {
+    "journey": 744688,
+    "spin": 99598,
+    "other": 292574,
+    "journeyFiles": 9,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 1136860
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 80,
+    "frame0_start": 150,
+    "frame0_end": 152,
+    "first_media_requests": [
+     [
+      "/spin/graphite/00.webp",
+      99,
+      102
+     ],
+     [
+      "/journey/desktop/000.webp",
+      150,
+      152
+     ],
+     [
+      "/journey/desktop/144.webp",
+      162,
+      168
+     ],
+     [
+      "/journey/desktop/048.webp",
+      162,
+      167
+     ]
+    ]
+   },
+   "journey_complete_ms": 861,
+   "transfer_at_top": {
+    "journey": 12490334,
+    "spin": 99598,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 1
+    },
+    "total": 12882506
+   },
+   "memory_at_top": {
+    "private_mb": 285.8,
+    "working_set_mb": 466.9,
+    "processes": 4
+   },
+   "journey_stats": {},
+   "turntable_usable_ms_after_jump": 406,
+   "selected_finish_complete_ms_after_jump": 2218,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 12399378,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 95,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 12399378
+   },
+   "memory_configurator_initial": {
+    "private_mb": 330.8,
+    "working_set_mb": 1082.0,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     836,
+     522
+    ],
+    "journeyCanvas": [
+     1440,
+     900
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 17,
+     "transfer": {
+      "journey": 0,
+      "spin": 6390360,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 6390360
+     }
+    },
+    "ember": {
+     "shown_ms": 16,
+     "transfer": {
+      "journey": 0,
+      "spin": 6567292,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 6567292
+     }
+    },
+    "graphite": {
+     "shown_ms": 15,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 366.2,
+    "working_set_mb": 1103.7,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {},
+    "journey": {},
+    "turnCanvas": [
+     836,
+     522
+    ],
+    "journeyCanvas": [
+     1440,
+     900
+    ]
+   },
+   "transfer_total": {
+    "journey": 12490334,
+    "spin": 25456628,
+    "other": 292574,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 38239536
+   },
+   "drag_slow": {
+    "frames": 535,
+    "changing": 244,
+    "median": 1.33,
+    "max": 3.25,
+    "spikes_over_4x_median": 0
+   },
+   "drag_fast": {
+    "frames": 124,
+    "changing": 69,
+    "median": 9.19,
+    "max": 24.82,
+    "spikes_over_4x_median": 0
+   },
+   "errors": []
+  }
+ ]
+}

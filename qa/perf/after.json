@@ -1,0 +1,580 @@
+{
+ "url": "http://localhost:4173",
+ "label": "after",
+ "browser": "Playwright headless Chromium on Windows 10 (this computer)",
+ "runs": [
+  {
+   "scenario": "desktop",
+   "profile": {
+    "viewport": {
+     "width": 1440,
+     "height": 900
+    },
+    "device_scale_factor": 1,
+    "throttled": false
+   },
+   "opening_visible_ms": 285,
+   "transfer_before_opening": {
+    "journey": 823216,
+    "spin": 0,
+    "other": 294677,
+    "journeyFiles": 10,
+    "spinFiles": {},
+    "total": 1117893
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 107,
+    "frame0_start": 182,
+    "frame0_end": 185,
+    "first_media_requests": [
+     [
+      "/journey/desktop/000.webp",
+      182,
+      185
+     ],
+     [
+      "/journey/desktop/144.webp",
+      195,
+      201
+     ],
+     [
+      "/journey/desktop/048.webp",
+      195,
+      201
+     ],
+     [
+      "/journey/desktop/096.webp",
+      195,
+      201
+     ]
+    ]
+   },
+   "journey_complete_ms": 702,
+   "transfer_at_top": {
+    "journey": 12490334,
+    "spin": 0,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {},
+    "total": 12785011
+   },
+   "memory_at_top": {
+    "private_mb": 228.6,
+    "working_set_mb": 411.5,
+    "processes": 4
+   },
+   "journey_stats": {
+    "decoded": "17",
+    "decodedBytes": "88128000",
+    "budget": "28"
+   },
+   "turntable_usable_ms_after_jump": 449,
+   "selected_finish_complete_ms_after_jump": 717,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 8952950,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 8952950
+   },
+   "memory_configurator_initial": {
+    "private_mb": 236.8,
+    "working_set_mb": 447.3,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {
+     "decoded": "30",
+     "decodedBytes": "52467360",
+     "decodedBy": "graphite:28,silver:1,ember:1",
+     "budget": "36",
+     "compressedBytes": "8909750",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10368000",
+     "budget": "28"
+    },
+    "turnCanvas": [
+     836,
+     522
+    ],
+    "journeyCanvas": [
+     1440,
+     900
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 14,
+     "transfer": {
+      "journey": 0,
+      "spin": 4588634,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 4588634
+     }
+    },
+    "ember": {
+     "shown_ms": 6,
+     "transfer": {
+      "journey": 0,
+      "spin": 4714240,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 4714240
+     }
+    },
+    "graphite": {
+     "shown_ms": 19,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 268.1,
+    "working_set_mb": 471.3,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {
+     "decoded": "30",
+     "decodedBytes": "52467360",
+     "decodedBy": "graphite:28,silver:1,ember:1",
+     "budget": "36",
+     "compressedBytes": "18169424",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10368000",
+     "budget": "28"
+    },
+    "turnCanvas": [
+     836,
+     522
+    ],
+    "journeyCanvas": [
+     1440,
+     900
+    ]
+   },
+   "transfer_total": {
+    "journey": 12490334,
+    "spin": 18255824,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 31040835
+   },
+   "drag_slow": {
+    "frames": 516,
+    "changing": 201,
+    "median": 1.37,
+    "max": 3.26,
+    "spikes_over_4x_median": 0
+   },
+   "drag_fast": {
+    "frames": 133,
+    "changing": 69,
+    "median": 3.88,
+    "max": 24.56,
+    "spikes_over_4x_median": 16
+   },
+   "errors": []
+  },
+  {
+   "scenario": "phone-slow",
+   "profile": {
+    "viewport": {
+     "width": 390,
+     "height": 844
+    },
+    "device_scale_factor": 2,
+    "is_mobile": true,
+    "has_touch": true,
+    "throttled": true
+   },
+   "opening_visible_ms": 3033,
+   "transfer_before_opening": {
+    "journey": 86318,
+    "spin": 0,
+    "other": 133590,
+    "journeyFiles": 1,
+    "spinFiles": {},
+    "total": 219908
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 1187,
+    "frame0_start": 1505,
+    "frame0_end": 2965,
+    "first_media_requests": [
+     [
+      "/journey/phone/000.webp",
+      1505,
+      2965
+     ]
+    ]
+   },
+   "journey_complete_ms": 51777,
+   "transfer_at_top": {
+    "journey": 9710128,
+    "spin": 0,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {},
+    "total": 10004805
+   },
+   "memory_at_top": {
+    "private_mb": 212.5,
+    "working_set_mb": 382.5,
+    "processes": 4
+   },
+   "journey_stats": {
+    "decoded": "15",
+    "decodedBytes": "78998400",
+    "budget": "24"
+   },
+   "turntable_usable_ms_after_jump": 683,
+   "selected_finish_complete_ms_after_jump": 31388,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 8952950,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 8952950
+   },
+   "memory_configurator_initial": {
+    "private_mb": 194.8,
+    "working_set_mb": 384.4,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {
+     "decoded": "19",
+     "decodedBytes": "33319388",
+     "decodedBy": "graphite:17,silver:1,ember:1",
+     "budget": "24",
+     "compressedBytes": "8909750",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10533120",
+     "budget": "24"
+    },
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 28,
+     "transfer": {
+      "journey": 0,
+      "spin": 4588634,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 4588634
+     }
+    },
+    "ember": {
+     "shown_ms": 17,
+     "transfer": {
+      "journey": 0,
+      "spin": 4714240,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 4714240
+     }
+    },
+    "graphite": {
+     "shown_ms": 13,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 225.5,
+    "working_set_mb": 423.2,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {
+     "decoded": "19",
+     "decodedBytes": "33319388",
+     "decodedBy": "graphite:17,silver:1,ember:1",
+     "budget": "24",
+     "compressedBytes": "18169424",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10533120",
+     "budget": "24"
+    },
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "transfer_total": {
+    "journey": 9710128,
+    "spin": 18255824,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 28260629
+   },
+   "errors": []
+  },
+  {
+   "scenario": "phone-warm",
+   "profile": {
+    "viewport": {
+     "width": 390,
+     "height": 844
+    },
+    "device_scale_factor": 2,
+    "is_mobile": true,
+    "has_touch": true,
+    "throttled": false
+   },
+   "opening_visible_ms": 223,
+   "transfer_before_opening": {
+    "journey": 603800,
+    "spin": 0,
+    "other": 294677,
+    "journeyFiles": 9,
+    "spinFiles": {},
+    "total": 898477
+   },
+   "opening_breakdown": {
+    "dom_content_loaded": 109,
+    "frame0_start": 179,
+    "frame0_end": 182,
+    "first_media_requests": [
+     [
+      "/journey/phone/000.webp",
+      179,
+      182
+     ],
+     [
+      "/journey/phone/144.webp",
+      190,
+      196
+     ],
+     [
+      "/journey/phone/048.webp",
+      190,
+      196
+     ],
+     [
+      "/journey/phone/096.webp",
+      190,
+      196
+     ]
+    ]
+   },
+   "journey_complete_ms": 521,
+   "transfer_at_top": {
+    "journey": 9710128,
+    "spin": 0,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {},
+    "total": 10004805
+   },
+   "memory_at_top": {
+    "private_mb": 208.9,
+    "working_set_mb": 371.8,
+    "processes": 4
+   },
+   "journey_stats": {
+    "decoded": "15",
+    "decodedBytes": "78998400",
+    "budget": "24"
+   },
+   "turntable_usable_ms_after_jump": 217,
+   "selected_finish_complete_ms_after_jump": 489,
+   "transfer_configurator_initial": {
+    "journey": 0,
+    "spin": 8952950,
+    "other": 0,
+    "journeyFiles": 0,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 24,
+     "ember": 24
+    },
+    "total": 8952950
+   },
+   "memory_configurator_initial": {
+    "private_mb": 205.6,
+    "working_set_mb": 385.2,
+    "processes": 4
+   },
+   "turn_stats_initial": {
+    "turn": {
+     "decoded": "19",
+     "decodedBytes": "33319388",
+     "decodedBy": "graphite:17,silver:1,ember:1",
+     "budget": "24",
+     "compressedBytes": "8909750",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10533120",
+     "budget": "24"
+    },
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "finish_changes": {
+    "silver": {
+     "shown_ms": 12,
+     "transfer": {
+      "journey": 0,
+      "spin": 4588634,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "silver": 72
+      },
+      "total": 4588634
+     }
+    },
+    "ember": {
+     "shown_ms": 14,
+     "transfer": {
+      "journey": 0,
+      "spin": 4714240,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {
+       "ember": 72
+      },
+      "total": 4714240
+     }
+    },
+    "graphite": {
+     "shown_ms": 6,
+     "transfer": {
+      "journey": 0,
+      "spin": 0,
+      "other": 0,
+      "journeyFiles": 0,
+      "spinFiles": {},
+      "total": 0
+     }
+    }
+   },
+   "memory_all_finishes_viewed": {
+    "private_mb": 241.4,
+    "working_set_mb": 423.5,
+    "processes": 4
+   },
+   "turn_stats_warm": {
+    "turn": {
+     "decoded": "19",
+     "decodedBytes": "33319388",
+     "decodedBy": "graphite:17,silver:1,ember:1",
+     "budget": "24",
+     "compressedBytes": "18169424",
+     "set": "spin-s",
+     "drawn": "graphite:0"
+    },
+    "journey": {
+     "decoded": "2",
+     "decodedBytes": "10533120",
+     "budget": "24"
+    },
+    "turnCanvas": [
+     696,
+     696
+    ],
+    "journeyCanvas": [
+     780,
+     1688
+    ]
+   },
+   "transfer_total": {
+    "journey": 9710128,
+    "spin": 18255824,
+    "other": 294677,
+    "journeyFiles": 145,
+    "spinFiles": {
+     "graphite": 96,
+     "silver": 96,
+     "ember": 96
+    },
+    "total": 28260629
+   },
+   "errors": []
+  }
+ ]
+}
