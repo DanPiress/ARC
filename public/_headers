@@ -1,0 +1,25 @@
+# Read by Netlify and Cloudflare Pages; copied into dist/ by the build.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+
+# Vite gives these files content-hashed names, so they never change in place.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Rendered media keeps fixed names; cache for a week so a re-render reaches visitors.
+/journey/*
+  Cache-Control: public, max-age=604800
+/spin/*
+  Cache-Control: public, max-age=604800
+/spin-s/*
+  Cache-Control: public, max-age=604800
+/layers/*
+  Cache-Control: public, max-age=604800
+/renders/*
+  Cache-Control: public, max-age=604800
+/why/*
+  Cache-Control: public, max-age=604800
